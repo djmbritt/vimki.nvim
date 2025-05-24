@@ -29,7 +29,7 @@ A Neovim plugin that lets you practice your Anki flashcards without leaving your
 
 ```lua
 {
-  "your-username/anki-practice.nvim",
+  "djmbritt/vimki.nvim",
   config = function()
     require("anki-practice").setup({
       -- Optional: customize AnkiConnect URL if using non-default port
